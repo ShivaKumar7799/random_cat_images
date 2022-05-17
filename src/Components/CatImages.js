@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import './CatImages.css'
 
@@ -15,7 +15,7 @@ function CatImages() {
   return (
    <div className='container' >
       <h1>Random Cat Images Generator</h1>
-     { data ? <img src = {data} width= "300px" height="300px" /> : <img style={{width : "300px", height : "300px"}} src='https://cdn2.thecatapi.com/images/5hq.jpg'/> }
+     { data ? <img alt='' src = {data} width= "300px" height="300px" /> : <img alt='' style={{width : "300px", height : "300px"}} src='https://cdn2.thecatapi.com/images/5hq.jpg'/> }
       <br />
       <button onClick={randomImage} > Get Random Cat Images</button>
    </div>
