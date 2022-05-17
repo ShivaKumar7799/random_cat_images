@@ -1,0 +1,22 @@
+*{
+  background-color: bisque;
+}
+.container{
+  text-align: center;
+}
+h1{
+  color: blue;
+  text-shadow: 3px 3px 5px red;
+}
+button{
+  margin-top: 10px;
+  padding: 10px;
+  color: green;
+  background-color: white;
+  border-radius: 15px;
+}
+button:hover{
+  background-color: green;
+  color: white;
+  transition: 1.2s;
+}
